@@ -6,10 +6,10 @@ import os
 
 #Page Setup
 st.set_page_config(page_title = 'Photo Labeling Website', page_icon = ':national_park:', layout = 'wide')
-directory = "C:/Users/space/Desktop/CS Projects/AI Photo Rater/Landscape Photos"
+directory = "/Landscape Photos"
 extensions = ('jpg', 'jpeg', 'png')
 file_list = os.listdir(directory)
-counter_path = "C:/Users/space/Desktop/CS Projects/AI Photo Rater/counter.txt"
+counter_path = "C:/Users/space/Desktop/CS Projects/AI Photo Rater/LabelingWebsite/counter.txt"
 #Counter Read-in
 try:
     with open(counter_path, 'r') as file:
